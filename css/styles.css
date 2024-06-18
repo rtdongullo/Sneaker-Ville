@@ -1,0 +1,21 @@
+body{
+    overflow-x: hidden;
+}
+
+
+#top-bar{
+    background-color: rgb(49, 2, 2);
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 15px;
+    font-family: "Roboto", sans-serif;
+}
+
+#location{
+    display: flex;
+    flex-direction: row;
+    color: white;
+}
