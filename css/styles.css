@@ -125,9 +125,9 @@ body{
     display: flex;
     flex-direction: column;
     position: absolute;
-    bottom: 5%;
+    bottom: 3%;
     right: 10%;
-    row-gap: 15px;
+    row-gap: 7px;
 }
 
 #hero-text{
@@ -144,4 +144,31 @@ body{
 
 #options:hover{
     background-color: orangered;
+}
+
+#big-why{
+    /* display: flex; */
+    height: 900px;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    column-gap: 80px;
+}
+
+#why-image img {
+    height: 650px;
+    border-top-left-radius: 80px;
+}
+
+#small-box-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid 0px red;
+    background-color: #c50505;
+    color: white;
+    height: 120px;
+    width: 180px;
 }
