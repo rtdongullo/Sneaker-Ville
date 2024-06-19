@@ -31,14 +31,27 @@ body{
     column-gap: 25px;
     color: white;
 }
+#socials a{
+    color: white;
+}
 
 #nav-bar {
-    background-color: rgb(44, 0, 114);
+    background-color: rgb(255, 255, 255);
     height: 100px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+}
+
+#nav-links a{
+    text-decoration: none;
+    color: black;
+    font-family: "Roboto", sans-serif;
+}
+
+#nav-links span:hover {
+    color: #c50505;
 }
 
 #nav-bar-right{
@@ -47,12 +60,36 @@ body{
     column-gap: 20px;
     padding-right: 30px;
 }
+#btn{
+    font-size: 15px;
+    width: 200px;
+    color: #c50505;
+    border: solid 1px #c50505;
+    /* border: 40px;
+    background-color: #c50505; */
+}
+
+#btn:hover{
+    color: white;
+    background-color: red;
+}
+
+#phone-number{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+}
+#digits{
+    color: rgb(197, 5, 5);
+    text-decoration: none;
+}
 
 #nav-bar-left{
     display: flex;
     flex-direction: row;
     align-items: center;
-    column-gap: 20px;
+    column-gap: 40px;
     padding-left: 20px;
 }
 
@@ -60,7 +97,51 @@ body{
     height: 80px;
 }
 
-#nav-bar-left nav-links {
-    font-size: 40px;
-    column-gap: 10px;
+#nav-links{
+    display: flex;
+    font-size: 25px;
+    column-gap: 20px;
+    color: black;
+}
+
+#hero{
+    background-image: url(../assets/images/pic5.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* #hero-image{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+} */
+
+#hero-tins{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    bottom: 5%;
+    right: 10%;
+    row-gap: 15px;
+}
+
+#hero-text{
+    color: white;
+    font-size: 30px;
+}
+
+#options{
+    color: white;
+    background-color: red;
+    font-size: 30px;
+    height: 60px;
+}
+
+#options:hover{
+    background-color: orangered;
 }
