@@ -1,5 +1,6 @@
 body{
     overflow-x: hidden;
+    scroll-behavior: smooth;
 }
 
 
@@ -42,7 +43,7 @@ body{
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    position: fixed;
+    /* position: fixed; */
     width: 100%;
     box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.3);
 }
@@ -260,6 +261,10 @@ body{
     justify-content: center;
 }
 
+.brand{
+    font-size: 20px;
+}
+
 #column-one{
     display: flex;
     flex-direction: column;
@@ -274,12 +279,13 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    row-gap: 10px;
 }
 
 #nike{
     width: 170px;
     height: 170px;
-    border-radius: 80px;
+    border-radius: 90px;
     overflow: hidden;
     border: 5px solid red;
 }
@@ -294,6 +300,11 @@ body{
     background-color: #FFFFFF;
     height: 350px;
     width: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 10px;
 }
 
 #column-two{
