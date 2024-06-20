@@ -42,6 +42,9 @@ body{
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    position: fixed;
+    width: 100%;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.3);
 }
 
 #nav-links a{
@@ -149,21 +152,19 @@ body{
 #big-why{
     /* display: flex; */
     height: 900px;
-    background-color: white;
+    background-color: rgb(255, 255, 255);
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    column-gap: 80px;
+    column-gap: 90px;
+    /* width: 90vw; */
 }
-/* #why-image{
-    position: relative;
-} */
 
 #why-image img {
     height: 650px;
+    /* width: 450px; */
     border-top-left-radius: 80px;
-
 
 }
 
@@ -180,22 +181,147 @@ body{
 .box-text{
     display: flex;
     justify-content: center;
-    font-size: 30px;
+    font-size: 25px;
     color: white;
 }
 
 #why-image-box{
-    background-color: #c50505;
+    background-color: #B40000;
     width: 180px;
     height: 180px;
     justify-content: center;
     align-items: center;
     text-align: center;
     position: absolute;
-    bottom: -10%;
+    bottom: -3%;
     right: -10%;
 }
 
 #big-why-left{
     position: relative;
 }
+
+#big-why-right{
+    position: relative;
+}
+
+#h2{
+    font-family: "Baskervville", serif;
+    font-size: 50px;
+    font-weight: lighter;
+    top: 3px;
+}
+#quote{
+    font-family: "Baskervville", serif;
+    font-size: 25px;
+    font-weight: lighter;
+    margin: 0px 0px 8px;
+}
+#third-p{
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+    margin: 0px 0px 40px;
+    font-weight: lighter;
+    color: #6B5A5A;
+}
+
+#ceo{
+  font-family: "Roboto", sans-serif;
+  color: #6B5A5A;  
+  font-size: 14px;
+}
+
+#name{
+    font-family: "Baskervville", serif;
+    font-size: 20px;
+}
+
+#sneaker-pool{
+    height: 1000px;
+    background-color: #F8F4F4;
+    display: flex;
+    flex-direction: column;
+    row-gap: 40px;
+}
+
+#sec-header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Baskervville", serif;
+    font-size: 30px;
+    font-weight: lighter;
+}
+
+#columns{
+    display: flex;
+    flex-direction: row;
+    column-gap: 10px;
+    justify-content: center;
+}
+
+#column-one{
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+
+#column-one-a{
+    background-color: #FFFFFF;
+    height: 350px;
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#nike{
+    width: 170px;
+    height: 170px;
+    border-radius: 80px;
+    overflow: hidden;
+    border: 5px solid red;
+}
+
+#nike img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#column-one-b{
+    background-color: #FFFFFF;
+    height: 350px;
+    width: 350px;
+}
+
+#column-two{
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+
+#column-two-a{
+    background-color: #FFFFFF;
+    height: 350px;
+    width: 350px;
+}
+
+#column-two-b{
+    background-color: #FFFFFF;
+    height: 350px;
+    width: 350px;
+}
+
+#column-annex{
+    background-color: #B40000;
+    height: 650px;
+    width: 350px;
+    border-top-right-radius: 100px;
+}
+
+
+
+
+
