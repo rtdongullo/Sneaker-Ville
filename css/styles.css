@@ -5,14 +5,15 @@ body{
 
 
 #top-bar{
-    background-color: rgb(49, 2, 2);
+    background-color: rgb(0, 0, 0);
     height: 40px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
     font-size: 15px;
-    font-family: "Roboto", sans-serif;
+    font-family: "Oswald", sans-serif;
+    letter-spacing: 1px;
 }
 
 #location{
@@ -51,7 +52,8 @@ body{
 #nav-links a{
     text-decoration: none;
     color: black;
-    font-family: "Roboto", sans-serif;
+    font-family: "Oswald", sans-serif;
+    font-weight: 350;
 }
 
 #nav-links span:hover {
@@ -67,15 +69,21 @@ body{
 #btn{
     font-size: 15px;
     width: 200px;
-    color: #c50505;
-    border: solid 1px #c50505;
+    height: 50px;
+    color: #000000;
+    border: solid 1px #000000;
+    border-radius: 10px;
     /* border: 40px;
     background-color: #c50505; */
 }
 
 #btn:hover{
     color: white;
-    background-color: red;
+    background-color: rgb(0, 0, 0);
+}
+
+#call-us{
+    font-size: 20px;
 }
 
 #phone-number{
@@ -87,6 +95,7 @@ body{
 #digits{
     color: rgb(197, 5, 5);
     text-decoration: none;
+    font-size: 20px;
 }
 
 #nav-bar-left{
@@ -137,13 +146,23 @@ body{
 #hero-text{
     color: white;
     font-size: 30px;
+    position: relative;
+    /* opacity: 10;
+    transform: translateX(-100%);
+    transition: all 1.5s ease-in-out; */
 }
+
+/* #hero-text.active{
+    opacity: 1;
+    transform: translateX(20%)
+} */
 
 #options{
     color: white;
     background-color: red;
     font-size: 30px;
     height: 60px;
+    border: none;
 }
 
 #options:hover{
@@ -239,7 +258,7 @@ body{
 
 #sneaker-pool{
     height: 1000px;
-    background-color: #F8F4F4;
+    background-color: #2e2c2c;
     display: flex;
     flex-direction: column;
     row-gap: 40px;
@@ -252,6 +271,7 @@ body{
     font-family: "Baskervville", serif;
     font-size: 30px;
     font-weight: lighter;
+    color: white;
 }
 
 #columns{
@@ -262,7 +282,14 @@ body{
 }
 
 .brand{
+    font-family: 'Oswald', sans-serif;
     font-size: 20px;
+    text-decoration: none;
+    color: black;
+}
+
+.brand:hover{
+    color: #B40000;
 }
 
 #column-one{
@@ -317,12 +344,22 @@ body{
     background-color: #FFFFFF;
     height: 350px;
     width: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 10px;
 }
 
 #column-two-b{
     background-color: #FFFFFF;
     height: 350px;
     width: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 10px;
 }
 
 #column-annex{
@@ -330,6 +367,45 @@ body{
     height: 650px;
     width: 350px;
     border-top-right-radius: 100px;
+}
+
+#section-4{
+    height: 600px;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#choose-us{
+    font-size: 30px;
+}
+
+#choose-us-text{
+    font-size: 20px;
+}
+
+#learn-more{
+    height: 63px;
+    width: 140px;
+    background-color: #B40000;
+    color: #FFFFFF;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    border: none;
+}
+
+#learn-more:hover{
+    background-color: orangered;
+}
+
+#sec-line{
+    height: 2px;
+    width: 100%;
+    background-color: #000000;
 }
 
 
