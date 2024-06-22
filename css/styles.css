@@ -193,7 +193,7 @@ body{
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    column-gap: 90px;
+    column-gap: 100px;
     /* width: 90vw; */
 }
 
@@ -238,7 +238,7 @@ body{
 }
 
 #big-why-right{
-    position: relative;
+    margin: 0px 0px 100px;
 }
 
 #h2{
@@ -256,6 +256,7 @@ body{
 #third-p{
     font-family: "Roboto", sans-serif;
     font-size: 18px;
+    line-height: 1.8;
     margin: 0px 0px 40px;
     font-weight: lighter;
     color: #6B5A5A;
@@ -284,9 +285,10 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    font-family: "Baskervville", serif;
+    font-family: 'Times New Roman', Times, serif;
     font-size: 30px;
     font-weight: lighter;
+    letter-spacing: 1.5px;
     color: white;
 }
 
@@ -330,7 +332,7 @@ body{
     height: 170px;
     border-radius: 90px;
     overflow: hidden;
-    border: 5px solid red;
+    border: 2px solid red;
 }
 
 #nike img{
@@ -386,7 +388,7 @@ body{
 }
 
 #section-4{
-    height: 510px;
+    height: 570px;
     background-color: #ffffff;
     display: flex;
     flex-direction: column;
@@ -437,6 +439,12 @@ body{
     height: 80px;
     justify-content: center;
     align-items: center;
+}
+
+#sec-line-down{
+    height: 2px;
+    width: 100%;
+    background-color: #a19696;
 }
 
 
