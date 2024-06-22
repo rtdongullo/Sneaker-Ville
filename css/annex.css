@@ -61,3 +61,47 @@
     object-fit: cover;
 }
 
+#white{
+    height: 700px;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+#white-details{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#white-text{
+    font-size: 10px;
+    color: black;
+    /* display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 200px; */
+}
+
+#white-pics{
+    display: flex;
+    flex-direction: row;
+}
+
+#middle {
+    height: 150px;
+    width: 85%;
+    background-color: #B40000;
+    position: absolute;
+    bottom: -10%;
+}
+
+#wine-footer{
+    height: 550px;
+    background-color: #2E2C2C;
+}
+
+
+
